@@ -1,0 +1,173 @@
+/* Contenedor principal */
+.login-screen-blue {
+  background-color: #dbeafe; 
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.login-nav-back {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  background: none;
+  border: none;
+  color: #1e3a8a;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.login-central-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  width: 100%;
+  max-width: 440px;
+}
+
+/* Estilos de la Cabecera (Logo y Títulos) */
+.login-header-centered {
+  text-align: center; /* Centra los textos */
+  width: 100%;
+}
+
+.login-logo-holder {
+  display: flex;
+  justify-content: center; /* Centra el logo */
+  margin-bottom: 12px;
+}
+
+.login-logo-img {
+  width: 90px;
+  height: auto;
+}
+
+.login-main-name {
+  color: #1e3a8a;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.login-main-tagline {
+  color: #1e3a8a;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+/* Tarjeta de Formulario Blanca */
+.login-form-card {
+  background: white;
+  width: 100%;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+  margin-bottom: 25px;
+}
+
+.login-input-row label {
+  display: block;
+  color: #1e3a8a;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.login-field-with-icon {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.login-field-with-icon input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.login-field-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+}
+
+/* Botones y enlaces */
+.login-action-link {
+  background: none;
+  border: none;
+  color: #1e3a8a;
+  font-size: 14px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto 25px auto;
+}
+
+.login-enter-btn {
+  width: 100%;
+  background-color: #0c215a;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 12px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-register-redirect {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.login-bold-link {
+  background: none;
+  border: none;
+  color: #1e3a8a;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Tarjeta Legal Inferior */
+.login-legal-info-card {
+  background: white;
+  width: 100%;
+  padding: 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  border: 1px solid #e2e8f0;
+}
+
+.login-legal-top-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #1e3a8a;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.login-legal-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0 25px;
+  font-size: 10px;
+  color: #64748b;
+  line-height: 1.5;
+}
