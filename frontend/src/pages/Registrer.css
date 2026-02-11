@@ -1,0 +1,92 @@
+.register-full-layout {
+  background-color: #dbeafe;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  position: relative;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.register-back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: #4b5563;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.register-main-content {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-header { text-align: center; margin-bottom: 30px; }
+.register-logo-img { width: 80px; margin-bottom: 10px; }
+.register-brand-title { color: #1e3a8a; font-size: 24px; font-weight: 700; margin: 0; }
+.register-brand-subtitle { color: #1e3a8a; font-size: 12px; margin-top: 5px; line-height: 1.4; }
+
+.register-card {
+  background: white;
+  width: 100%;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.register-card-header { text-align: center; margin-bottom: 25px; }
+.register-card-header h2 { font-size: 20px; color: #1f2937; margin-bottom: 5px; }
+.register-card-header p { font-size: 13px; color: #6b7280; }
+
+.register-form { display: flex; flex-direction: column; gap: 15px; }
+.register-field label { display: block; font-size: 13px; color: #374151; margin-bottom: 6px; font-weight: 600; }
+
+.register-input-wrapper { position: relative; }
+.register-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); width: 18px; color: #9ca3af; }
+.register-input-wrapper input {
+  width: 100%;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.register-terms { display: flex; gap: 10px; margin-top: 10px; }
+.register-terms input { margin-top: 3px; }
+.register-terms label { font-size: 11px; color: #4b5563; line-height: 1.4; }
+
+.register-submit-btn {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.register-footer { text-align: center; font-size: 13px; color: #4b5563; margin-top: 15px; }
+.register-footer button { background: none; border: none; color: #1e3a8a; font-weight: 600; cursor: pointer; }
+
+.register-legal-box {
+  margin-top: 25px;
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  width: 100%;
+}
+.register-legal-header { display: flex; align-items: center; gap: 10px; font-size: 11px; color: #1e3a8a; font-weight: 700; }
+.register-legal-box ul { list-style: none; padding: 0; margin: 10px 0 0 25px; font-size: 10px; color: #6b7280; }
